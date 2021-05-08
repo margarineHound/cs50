@@ -20,3 +20,7 @@ $container-max-widths: (
   @include make-container(sm);
   text-align: right;
 }
+
+.media {
+    text-align:center;
+}
