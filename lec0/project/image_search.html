@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="custom-container">
-            <a href="image_search.html">Images</a>
+            <a href="image_search.html">Web Search</a>
 
             <a href="advanced_search.html">Advanced Search</a>
         </div>
@@ -19,11 +19,12 @@
                 <img class="align-self-center mr-3" src='./google-logo.png' alt='google-logo'>
             </div>
         </div>
-        <div class="search-box">
+        <div class="search">
             <form action="https://www.google.com/search">
-                <input type="text" name="q"><br><br>
-                <input type="hidden" id="tbm" name= "tbm" value="isch">
-                <input type="submit" value="Image Search">
+                <input class="search-box" type="text" name="q" aria-label="Search Term"><br>
+                <input type="hidden" id="tbm" name="tbm" value="isch">
+                <!-- <input type="submit" value="Image Search"> -->
+                <button type="submit" value="Image Search" class="btn btn-primary mb-3">Image Search</button>
             </form>
         </div>
     </body>

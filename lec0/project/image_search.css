@@ -6,7 +6,15 @@
   margin-left: auto;
   text-align: right; }
 
-.logo-box, .mb-3 {
+.logo-box, .mb-3, .search {
   text-align: center; }
+
+.search > .form-control {
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid #73AD21;
+  padding: 1000px;
+  width: 1000px;
+  height: 40px; }
 
 /*# sourceMappingURL=image_search.css.map */
