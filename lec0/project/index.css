@@ -6,8 +6,11 @@
   margin-left: auto;
   text-align: right; }
 
-.logo-box, .mb-3, .search {
-  text-align: center; }
+.logo-box, .mb-3, .search .adv-search {
+  text-align: center;
+  object-fit: scale-down;
+  flex-shrink: 3;
+  justify-content: center; }
 
 .search > .form-control {
   text-align: center;

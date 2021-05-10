@@ -6,20 +6,32 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <label for="as_q">all these words:</label>
-            <input id="as_q" type="text" name="as_q"><br><br>
-            <label for="as_epq">this exact word or phrase:</label>
-            <input id="as_epq" type="text" name="as_epq"><br><br>
-            <label for="as_oq">any of these words</label>
-            <input id="as_oq" type="text" name="as_oq"><br><br>
-            <label for="as_eq">none of these words:</label>
-            <input id="as_eq" type="text" name="as_eq"><br><br>
-            <label for="as_nol">numbers ranging from:</label>
-            <input id="as_nol" type="text" name="as_nol">
-            <label for="as_noh">to: </label>
-            <input id="as_noh" type="text" name="as_noh"><br><br>
-            <input type="submit" value="Advanced Search">
-        </form>
+        <div class="custom-container">
+            <a href="image_search.html">Web Search</a>
+
+            <a href="advanced_search.html">Advanced Search</a>
+        </div>
+        <div class="adv-search">
+            <div class="row">
+                <div class="col">
+                    <label for="as_q">all these words:</label><br><br>
+                    <label for="as_epq">this exact word or phrase:</label><br><br>
+                    <label for="as_oq">any of these words</label><br><br>
+                    <label for="as_eq">none of these words:</label><br><br>
+                    <label for="as_nol">numbers ranging from:</label><br><br>
+                    <label for="as_noh">to: </label><br><br>
+                </div>
+            <div class="col-6">
+                <form action="https://www.google.com/search">
+                    <input id="as_q" type="text" name="as_q"><br><br>
+                    <input id="as_epq" type="text" name="as_epq"><br><br>
+                    <input id="as_oq" type="text" name="as_oq"><br><br>
+                    <input id="as_eq" type="text" name="as_eq"><br><br>
+                    <input id="as_nol" type="text" name="as_nol">
+                    <input id="as_noh" type="text" name="as_noh"><br><br>
+                </form>
+            <div class="col">
+                    <input type="submit" value="Advanced Search">
+            </div>
     </body>
 </html>
